@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: white;
+  background-color: #121c23;
+  font-family:Roboto;
+}
+
+
+
+
+.home{
+  height:100vh;
+ 
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.home::before{
+  content: "";
+  background: url(Img/Roberto-Final.PNG) no-repeat;
+  background-size: cover;
+  position:absolute;
+  top: 100px;
+  right: 0px;
+  bottom: 0px;
+  left: 600px;
+  
+}
+
+.home-content{
+  
+  max-width: 600px;
+}
+
+.home-content h1{
+  line-height: 1.2;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.home-content h3{
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(0, 255, 255);
+}
+
+.home-content p{
+  font-size: 16px;
+  margin: 20px 0 40px;
+
+}
